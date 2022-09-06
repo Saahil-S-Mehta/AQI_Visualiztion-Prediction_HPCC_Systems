@@ -1,0 +1,26 @@
+IMPORT $;
+Al:= $.File_Al.File;
+B:= $.File_B.File;
+Ca:=$.File_Ca.File;
+F:=$.File_F.File;
+Fe:=$.File_Fe.File;
+Mg:=$.File_Mg.File;
+Ni:=$.File_Ni.File;
+ph:=$.File_ph.File;
+sd:=$.File_SD.File;
+sul:=$.File_Sulphate.File;
+tds:=$.File_TDS.File;
+th:=$.File_TH.File;
+
+OUTPUT(Al,named('Aluminium'));
+OUTPUT(B,named('Boron'));
+OUTPUT(Ca,named('Calcium'));
+OUTPUT(F,named('Fluoride'));
+OUTPUT(Fe,named('Iron'));
+OUTPUT(Mg,named('Magnesium'));
+OUTPUT(Ni,named('NitogenNi'));
+OUTPUT(ph,named('PH'));
+OUTPUT(sd,named('Secchidepth'));
+OUTPUT(sul,named('Sulphate'));
+OUTPUT(tds,named('TotalDissolvedSolids'));
+OUTPUT(th,named('TotalHardness'));
